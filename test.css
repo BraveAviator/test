@@ -1,5 +1,20 @@
-body {
-  background-color: #CDF3F1;
-  color: #110B6C;
+header, .contact {
+  height: 100vh;
+  color: #2b2b2b;
+  background: lightblue;
+}
+
+header button, .contact button {
+  background-color: #b65599;
+}
+
+header button::after, .contact button::after {
+  content: "Hellooooo";
+}
+
+.contact {
+  background: lightcoral;
+  background: #a83a3a;
+  width: 80%;
 }
 /*# sourceMappingURL=test.css.map */

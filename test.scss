@@ -1,6 +1,10 @@
-$bgcolor: #CDF3F1;
-$fontcolor: #110B6C;
-body{
-    background-color: $bgcolor;
-    color: $fontcolor;
+
+@import "./variables";
+@import "./header";
+
+.contact{
+   @extend header;
+   background: lightcoral;
+   background: rgb(168, 58, 58);
+   width: 100% - 20%;
 }
